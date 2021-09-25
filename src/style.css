@@ -1,1 +1,26 @@
 /* styles go here */
+
+.section {
+  border: 1px solid #000;
+  position: relative;
+  margin: 0 0 20px;
+  padding: 15px;
+}
+
+.form_field {
+  margin: 0 0 10px;
+}
+
+.section .form_field:last-child {
+  margin: unset;
+}
+
+.section_name {
+  display: inline-block;
+  position: absolute;
+  background-color: #fff;
+  padding: 0 5px;
+
+  top: -10px;
+  left: 15px;
+}
